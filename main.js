@@ -6,10 +6,6 @@ function darkMode()
         document.getElementById("html").style.backgroundColor = "#808080";
         document.getElementById("button1").style.visibility = "hidden"
         document.getElementById("button2").style.visibility = "visible"
-        if (color.style.backgroundColor == "#ffffff")
-        {
-            console.log("detection_color")
-        }
         console.log("Darkmode On")
 }
 function lightMode()
